@@ -17,19 +17,17 @@ body{
     
 }
 #box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
     height : 200px;
     width: 600px;
     background-color: aqua;
     border: 2px solid red;
 }
-#btn{
-    height: 50px;
-    width : 150px;
-    background-color:beige;
+#bar{
+height:100px;
+width:10px;
+background-color: blueviolet;
 }
-#dwn{
-    height : 100px;
-    width : 500px;
-    background-color: brown;
-    border: 2px solid gray;
-}
+
